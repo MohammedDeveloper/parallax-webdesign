@@ -46,7 +46,7 @@ body {
 
     .section.section-light {
         background-color: #f4f4f4;
-        color: #666;
+        color: #795548;
     }
 
         .section.section-light blockquote {
@@ -62,7 +62,7 @@ body {
             border-left: 5px solid #f4f4f4;
         }
 
-.ptext {
+.ptext, .ptext2 {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -72,11 +72,17 @@ body {
     letter-spacing: 12px;
 }
 
-    .ptext .border {
-        background-color: #d1cbb9;
+    .ptext .border,
+    .ptext2 .border {
+        background-color: #FFEB3B;
         padding: 5px 10px;
-        color: #000;
+        color: #795548;
         border-radius: 5px;
+    }
+
+    .ptext2 .border {
+        background-color: transparent;
+        color: #fff;
     }
 
 .footer {
@@ -110,7 +116,7 @@ body {
         background-attachment: fixed; /* For normal */
     }
 
-    .ptext {
+    .ptext, ptext2 {
         font-size: 25px;
         letter-spacing: 8px;
     }
