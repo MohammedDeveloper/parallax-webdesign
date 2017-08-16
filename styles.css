@@ -1,0 +1,126 @@
+body {
+    font-family: 'Lato', 'Segoe UI', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+    margin: 0;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4 {
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* For Parallex */
+    /*background-attachment: fixed;*/ /* For normal */
+}
+
+.pimg1 {
+    background-image: url(image1.jpeg);
+    min-height: 100vh;
+}
+
+.pimg2 {
+    background-image: url(image2.jpeg);
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url(image3.jpeg);
+    min-height: 400px;
+}
+
+.pimg4 {
+    background-image: url(image4.jpeg);
+    min-height: 400px;
+}
+
+.section {
+    text-align: left;
+    padding: 20px 40px;
+}
+
+    .section.section-light {
+        background-color: #f4f4f4;
+        color: #666;
+    }
+
+        .section.section-light blockquote {
+            border-left: 5px solid #282e34;
+        }
+
+    .section.section-dark {
+        background-color: #282e34;
+        color: #ddd;
+    }
+
+        .section.section-dark blockquote {
+            border-left: 5px solid #f4f4f4;
+        }
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+}
+
+    .ptext .border {
+        background-color: #d1cbb9;
+        padding: 5px 10px;
+        color: #000;
+        border-radius: 5px;
+    }
+
+.footer {
+    position: relative;
+    background-color: #f4f4f4;
+}
+
+.footertext {
+    width: 100%;
+    text-align: center;
+    text-transform: fullsize-kana;
+    letter-spacing: 4px;
+}
+
+    .footertext .border {
+        color: #666;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+@media(max-width: 568px) {
+
+    .pimg1, .pimg2, .pimg3, .pimg4 {
+        position: relative;
+        opacity: 0.8;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*background-attachment: fixed;*/ /* For Parallex */
+        background-attachment: fixed; /* For normal */
+    }
+
+    .ptext {
+        font-size: 25px;
+        letter-spacing: 8px;
+    }
+
+        .ptext .border {
+            padding: 5px;
+        }
+
+    .footertext {
+        letter-spacing: 4px;
+        font-size: 40%;
+    }
+}
