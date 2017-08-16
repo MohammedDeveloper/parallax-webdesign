@@ -4,3 +4,4 @@ Parallax Web designing:  Involves the web page's background moving at a slower r
 <img src="https://github.com/MohammedDeveloper/parallax-webdesign/blob/master/demo1.PNG" />
 <img src="https://github.com/MohammedDeveloper/parallax-webdesign/blob/master/demo2.PNG" />
 <img src="https://github.com/MohammedDeveloper/parallax-webdesign/blob/master/demo3.PNG" />
+<img src="https://github.com/MohammedDeveloper/parallax-webdesign/blob/master/demo4.PNG" />
